@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gcloud-aio"
+name = "gcloud-rest"
 version = "0.0.0"
 description = "Meta package for building gcloud-rest    "
 
