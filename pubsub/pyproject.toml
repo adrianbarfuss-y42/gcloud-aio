@@ -21,12 +21,11 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">= 3.6, < 4.0"
-gcloud-aio-auth = {git="git@github.com:adrianbarfuss-y42/gcloud-aio.git", branch="master", subdirectory="auth"}
+gcloud-aio-auth = {git="git@github.com:adrianbarfuss-y42/gcloud-aio.git", branch="fix-use-context-manager-for-aiohttp-requests", subdirectory="auth"}
 prometheus-client = ">= 0.13.1, < 1.0.0"
 
 [tool.poetry.dev-dependencies]
 aiohttp = ">= 3.3.0, < 4.0.0"
-gcloud-aio-auth = { path = "../auth" }
 pytest = ">= 4.0.0, < 8.0.0"
 pytest-asyncio = ">= 0.16.0, < 0.19.1"
 pytest-mock = ">= 2.0.0, < 4.0.0"
